@@ -14,11 +14,11 @@ Add the package via Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/aiaestheticsgit/SegmentedProgressViewStyle", from: "1.0.0")
+    .package(url: "https://github.com/EdisonBJr/SegmentedProgressViewStyle", from: "1.0.0")
 ],
 ```
 
-Or in Xcode: **File → Add Package Dependencies…**, enter `https://github.com/aiaestheticsgit/SegmentedProgressViewStyle`, and add the `SegmentedProgressViewStyle` library to your app target.
+Or in Xcode: **File → Add Package Dependencies…**, enter `https://github.com/EdisonBJr/SegmentedProgressViewStyle`, and add the `SegmentedProgressViewStyle` library to your app target.
 
 Versions are published as git tags (`1.0.0`, `1.1.0`, …), so pin the range that fits your needs — e.g. `from: "1.0.0"`, `exact: "1.0.0"`, or `"1.0.0"..<"2.0.0"`.
 
