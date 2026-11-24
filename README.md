@@ -37,6 +37,8 @@ ProgressView(value: 0.6)
     .progressViewStyle(.segmented)
 ```
 
+![A `ProgressView` rendered with the segmented style](docs/usage.png)
+
 The `.segmented` convenience is provided through a `ProgressViewStyle` extension, so it works with the standard `.progressViewStyle(_:)` modifier.
 
 ### Customizing
@@ -55,6 +57,8 @@ ProgressView(value: 0.6)
         )
     )
 ```
+
+![The same style customized — eight segments, green progress, a lighter track](docs/customizing.png)
 
 You can also construct the style directly and pass the instance:
 
